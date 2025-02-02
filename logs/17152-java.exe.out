@@ -1,0 +1,174 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 5382milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 5382"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.enterTextIntoElement' and 'StepImplementation.enterTextIntoElement'"}
+{"logLevel":"debug","message":"Found Enter {} into {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.enterTextIntoElement' and 'StepImplementation.enterTextIntoElement'"}
+{"logLevel":"debug","message":"Found {} elementine {} text değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found {} sayfasına git. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.saveTransferAmount' and 'StepImplementation.saveTransferAmount'"}
+{"logLevel":"debug","message":"Found Kullanıcı {} TL gönderir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.saveTransferAmount' and 'StepImplementation.saveTransferAmount'"}
+{"logLevel":"debug","message":"Found {} TL transfer edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getNewBalance' and 'StepImplementation.getNewBalance'"}
+{"logLevel":"debug","message":"Found Yeni bakiye alınır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getNewBalance' and 'StepImplementation.getNewBalance'"}
+{"logLevel":"debug","message":"Found Transfer sonrası bakiye kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementDisplayed' and 'StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found Verify {} is displayed in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementDisplayed' and 'StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found {} elementinin görünür olduğunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.transferAndVerifyBalance' and 'StepImplementation.transferAndVerifyBalance'"}
+{"logLevel":"debug","message":"Found Transferden önce {} da kalan hesabı {} kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyBalanceforAdd' and 'StepImplementation.verifyBalanceforAdd'"}
+{"logLevel":"debug","message":"Found Eklenen bakiye hesaplanır ve karşılaştırılır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyBalanceforTransfer' and 'StepImplementation.verifyBalanceforTransfer'"}
+{"logLevel":"debug","message":"Found Bakiye doğrulaması yapılır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.verifyBalanceforTransfer' and 'StepImplementation.verifyBalanceforTransfer'"}
+{"logLevel":"debug","message":"Found Beklenen bakiye hesaplanır ve karşılaştırılır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clearInputArea' and 'StepImplementation.clearInputArea'"}
+{"logLevel":"debug","message":"Found Clear text of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clearInputArea' and 'StepImplementation.clearInputArea'"}
+{"logLevel":"debug","message":"Found {} elementinin text alanını temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getInitialBalance' and 'StepImplementation.getInitialBalance'"}
+{"logLevel":"debug","message":"Found Mevcut bakiye alınır. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.getInitialBalance' and 'StepImplementation.getInitialBalance'"}
+{"logLevel":"debug","message":"Found Hesap bakiyesi kontrol edilir. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitBySeconds' and 'StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitBySeconds' and 'StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkElementContainsText' and 'StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkElementContainsText' and 'StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tYeni bakiye alınır. : public void getNewBalance()"}
+{"logLevel":"debug","message":"\tEnter {} into {} : public void enterTextIntoElement(String key, String text)"}
+{"logLevel":"debug","message":"\t{} sayfasına git. : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tTransfer sonrası bakiye kontrol edilir. : public void getNewBalance()"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String text)"}
+{"logLevel":"debug","message":"\tTransferden önce {} da kalan hesabı {} kontrol et : public void transferAndVerifyBalance(String key, String amount)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\t{} elementinin görünür olduğunu kontrol et : public boolean isElementDisplayed(String key)"}
+{"logLevel":"debug","message":"\tBakiye doğrulaması yapılır. : public void verifyBalanceforTransfer()"}
+{"logLevel":"debug","message":"\tClear text of element {} : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tVerify {} is displayed : public boolean isElementDisplayed(String key)"}
+{"logLevel":"debug","message":"\t{} TL transfer edilir. : public void saveTransferAmount(String text)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String text)"}
+{"logLevel":"debug","message":"\tEklenen bakiye hesaplanır ve karşılaştırılır. : public void verifyBalanceforAdd()"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\t{} elementine {} text değerini yaz : public void enterTextIntoElement(String key, String text)"}
+{"logLevel":"debug","message":"\t{} elementine tıkla. : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin text alanını temizle : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\tHesap bakiyesi kontrol edilir. : public void getInitialBalance()"}
+{"logLevel":"debug","message":"\tClick {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tKullanıcı {} TL gönderir. : public void saveTransferAmount(String text)"}
+{"logLevel":"debug","message":"\tMevcut bakiye alınır. : public void getInitialBalance()"}
+{"logLevel":"debug","message":"\tBeklenen bakiye hesaplanır ve karşılaştırılır. : public void verifyBalanceforTransfer()"}
+{"logLevel":"debug","message":"started gRPC server on port 64873"}
+{"logLevel":"info","message":"Listening on port:64873"}
+{"logLevel":"debug","message":"Executing '{} sayfasına git.' using 'class StepImplementation.navigateTo"}
+Starting ChromeDriver 132.0.6834.159 (2d77d3fc4452661469b78f115e0aed4d71269739-refs/branch-heads/6834@{#4408}) on port 34069
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 34069.
+Şub 02, 2025 5:06:14 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Şub 02, 2025 5:06:14 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+17:06:14.250 [pool-2-thread-1] INFO  StepImplementation - Navigating to: https://catchylabs-webclient.testinium.com/signIn
+{"logLevel":"debug","message":"Executing '{} elementine {} text değerini yaz' using 'class StepImplementation.enterTextIntoElement"}
+17:06:15.398 [pool-2-thread-1] INFO  StepImplementation - 📝 'loginPageUserName' elementine 'devrim.hot@testinium.com' değerini yazıyorum.
+17:06:15.399 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='loginPageUserName'
+17:06:15.403 [pool-2-thread-1] INFO  utils.ElementReader - 📂 `page_elements.json` yükleniyor...
+17:06:16.051 [pool-2-thread-1] INFO  utils.ElementReader - ✅ `page_elements.json` başarıyla yüklendi.
+17:06:16.054 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='//*[@id='root']/div/div[2]/div/div[1]/div/div/div[2]/div/input'
+17:06:16.389 [pool-2-thread-1] INFO  StepImplementation - ✅ 'loginPageUserName' elementine 'devrim.hot@testinium.com' başarıyla yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine {} text değerini yaz' using 'class StepImplementation.enterTextIntoElement"}
+17:06:16.408 [pool-2-thread-1] INFO  StepImplementation - 📝 'loginPagePassword' elementine '6bQfRSXy' değerini yazıyorum.
+17:06:16.408 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='loginPagePassword'
+17:06:16.408 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='//*[@id='root']/div/div[2]/div/div[1]/div/div/div[3]/div/input'
+17:06:16.610 [pool-2-thread-1] INFO  StepImplementation - ✅ 'loginPagePassword' elementine '6bQfRSXy' başarıyla yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla.' using 'class StepImplementation.clickElement"}
+17:06:16.626 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='loginButton'
+17:06:16.626 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='css', value='[class='css-146c3p1 r-jwli3a r-1b43r93']'
+17:06:16.655 [pool-2-thread-1] INFO  StepImplementation - Clicking on element: loginButton
+{"logLevel":"debug","message":"Executing '{} elementinin görünür olduğunu kontrol et' using 'class StepImplementation.isElementDisplayed"}
+17:06:16.850 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='infoPage'
+17:06:16.850 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='css', value='[class='css-175oi2r r-1i3z66q r-tuq35u r-13qz1uu']'
+17:06:17.410 [pool-2-thread-1] INFO  StepImplementation - Element infoPage is displayed: true
+{"logLevel":"debug","message":"Executing '{} elementine tıkla.' using 'class StepImplementation.clickElement"}
+17:06:17.426 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='openMoneyButton'
+17:06:17.426 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='css', value='[class='css-146c3p1 r-jwli3a r-1b43r93']'
+17:06:17.451 [pool-2-thread-1] INFO  StepImplementation - Clicking on element: openMoneyButton
+{"logLevel":"debug","message":"Executing 'Mevcut bakiye alınır.' using 'class StepImplementation.getInitialBalance"}
+17:06:17.641 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='accountInfoAmount'
+17:06:17.641 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='//*[@id='root']/div/div[2]/div[2]/div[1]/div/div/div/div[3]/div[7]/div[2]/div'
+17:06:17.884 [pool-2-thread-1] INFO  StepImplementation - 💳 Orijinal bakiye metni: 68,900.00
+17:06:17.886 [pool-2-thread-1] INFO  StepImplementation - 📊 Düzeltilmiş bakiye metni: 68900.00
+17:06:17.886 [pool-2-thread-1] INFO  StepImplementation - 💰 Mevcut Bakiye: 68900.0 TL
+{"logLevel":"debug","message":"Executing '{} elementine tıkla.' using 'class StepImplementation.clickElement"}
+17:06:17.899 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='addMoney'
+17:06:17.899 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='//*[@id='root']/div/div[2]/div[2]/div[1]/div/div/div/div[7]/div[2]/div'
+17:06:17.999 [pool-2-thread-1] INFO  StepImplementation - Clicking on element: addMoney
+{"logLevel":"debug","message":"Executing '{} elementine {} text değerini yaz' using 'class StepImplementation.enterTextIntoElement"}
+17:06:18.336 [pool-2-thread-1] INFO  StepImplementation - 📝 'cardNumberInput' elementine '1234123412341234' değerini yazıyorum.
+17:06:18.336 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='cardNumberInput'
+17:06:18.337 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[2]/input'
+17:06:18.725 [pool-2-thread-1] INFO  StepImplementation - ✅ 'cardNumberInput' elementine '1234123412341234' başarıyla yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine {} text değerini yaz' using 'class StepImplementation.enterTextIntoElement"}
+17:06:18.738 [pool-2-thread-1] INFO  StepImplementation - 📝 'cardHolderInput' elementine 'devrimhot' değerini yazıyorum.
+17:06:18.738 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='cardHolderInput'
+17:06:18.738 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[4]/input'
+17:06:18.968 [pool-2-thread-1] INFO  StepImplementation - ✅ 'cardHolderInput' elementine 'devrimhot' başarıyla yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine {} text değerini yaz' using 'class StepImplementation.enterTextIntoElement"}
+17:06:18.987 [pool-2-thread-1] INFO  StepImplementation - 📝 'expiryDateInput' elementine '1026' değerini yazıyorum.
+17:06:18.987 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='expiryDateInput'
+17:06:18.988 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[6]/div[1]/div/input'
+17:06:19.183 [pool-2-thread-1] INFO  StepImplementation - ✅ 'expiryDateInput' elementine '1026' başarıyla yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine {} text değerini yaz' using 'class StepImplementation.enterTextIntoElement"}
+17:06:19.195 [pool-2-thread-1] INFO  StepImplementation - 📝 'cvvInput' elementine '110' değerini yazıyorum.
+17:06:19.196 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='cvvInput'
+17:06:19.196 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='//html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[6]/div[2]/div/input'
+17:06:19.380 [pool-2-thread-1] INFO  StepImplementation - ✅ 'cvvInput' elementine '110' başarıyla yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine {} text değerini yaz' using 'class StepImplementation.enterTextIntoElement"}
+17:06:19.394 [pool-2-thread-1] INFO  StepImplementation - 📝 'amountInput' elementine '10000' değerini yazıyorum.
+17:06:19.395 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='amountInput'
+17:06:19.395 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[8]/input'
+17:06:19.617 [pool-2-thread-1] INFO  StepImplementation - ✅ 'amountInput' elementine '10000' başarıyla yazıldı.
+{"logLevel":"debug","message":"Executing '{} elementine tıkla.' using 'class StepImplementation.clickElement"}
+17:06:19.630 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='addButton'
+17:06:19.630 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='/html/body/div[4]/div/div[2]/div/div/div/div/div[2]/div[2]/div/div[10]/div'
+17:06:19.659 [pool-2-thread-1] INFO  StepImplementation - Clicking on element: addButton
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class StepImplementation.waitBySeconds"}
+17:06:19.797 [pool-2-thread-1] INFO  StepImplementation - 4 saniye bekleniyor.
+{"logLevel":"debug","message":"Executing 'Yeni bakiye alınır.' using 'class StepImplementation.getNewBalance"}
+17:06:23.854 [pool-2-thread-1] INFO  StepImplementation - 🔍 Element bulunuyor: key='accountInfoAmount'
+17:06:23.855 [pool-2-thread-1] INFO  StepImplementation - ✅ Element başarıyla bulundu: type='xpath', value='//*[@id='root']/div/div[2]/div[2]/div[1]/div/div/div/div[3]/div[7]/div[2]/div'
+17:06:23.892 [pool-2-thread-1] INFO  StepImplementation - 💳 Orijinal bakiye metni: 98,900.00
+17:06:23.893 [pool-2-thread-1] INFO  StepImplementation - 📊 Düzeltilmiş bakiye metni: 98900.00
+17:06:23.893 [pool-2-thread-1] INFO  StepImplementation - 💳 Yeni Bakiye: 98900.0 TL
+{"logLevel":"debug","message":"Executing 'Eklenen bakiye hesaplanır ve karşılaştırılır.' using 'class StepImplementation.verifyBalanceforAdd"}
+17:06:23.919 [pool-2-thread-1] INFO  StepImplementation - 🎯 Beklenen Bakiye: 68900.0 TL
+17:06:23.920 [pool-2-thread-1] INFO  StepImplementation - 📌 Gerçek Bakiye: 98900.0 TL
+17:06:23.920 [pool-2-thread-1] ERROR StepImplementation - ❌ Bakiye yanlış! Beklenen: 68900.0, Görülen: 98900.0
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

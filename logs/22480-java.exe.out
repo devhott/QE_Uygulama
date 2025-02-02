@@ -1,0 +1,47 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+log4j:WARN Continuable parsing error 2 and column 30
+log4j:WARN Document root element "Configuration", must match DOCTYPE root "null".
+log4j:WARN Continuable parsing error 2 and column 30
+log4j:WARN Document is invalid: no grammar found.
+log4j:ERROR DOM element is - not a <log4j:configuration> element.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1979milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1979"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 52273"}
+{"logLevel":"info","message":"Listening on port:52273"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementDisplayed' and 'StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found Verify {} is displayed on {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click {} on {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.enterText' and 'StepImplementation.enterText'"}
+{"logLevel":"debug","message":"Found Enter {} into {} on {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick {} on {} : public void clickElement(String page, String elementKey)"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tEnter {} into {} on {} : public void enterText(String text, String page, String elementKey)"}
+{"logLevel":"debug","message":"\tVerify {} is displayed on {} : public boolean isElementDisplayed(String page, String elementKey)"}
+{"logLevel":"debug","message":"Executing 'Navigate to {}' using 'class StepImplementation.navigateTo"}
+Starting ChromeDriver 132.0.6834.159 (2d77d3fc4452661469b78f115e0aed4d71269739-refs/branch-heads/6834@{#4408}) on port 22635
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 22635.
+Şub 01, 2025 10:18:56 ÖS org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Şub 01, 2025 10:18:56 ÖS org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing 'Verify {} is displayed on {}' using 'class StepImplementation.isElementDisplayed"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

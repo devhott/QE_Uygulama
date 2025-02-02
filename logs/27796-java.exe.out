@@ -1,0 +1,59 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN Continuable parsing error 2 and column 30
+log4j:WARN Document root element "Configuration", must match DOCTYPE root "null".
+log4j:WARN Continuable parsing error 2 and column 30
+log4j:WARN Document is invalid: no grammar found.
+log4j:ERROR DOM element is - not a <log4j:configuration> element.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (19) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 1045milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1045"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 59087"}
+{"logLevel":"info","message":"Listening on port:59087"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.enterTextIntoElement' and 'StepImplementation.enterTextIntoElement'"}
+{"logLevel":"debug","message":"Found Enter {} into {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.enterTextIntoElement' and 'StepImplementation.enterTextIntoElement'"}
+{"logLevel":"debug","message":"Found {} elementine {} text değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found {} sayfasına git. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementDisplayed' and 'StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found Verify {} is displayed in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementDisplayed' and 'StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found {} elementinin görünür olduğunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementine tıkla. : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tEnter {} into {} : public void enterTextIntoElement(String text, String key)"}
+{"logLevel":"debug","message":"\tVerify {} is displayed : public boolean isElementDisplayed(String key)"}
+{"logLevel":"debug","message":"\t{} sayfasına git. : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\t{} elementinin görünür olduğunu kontrol et : public boolean isElementDisplayed(String key)"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tClick {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} text değerini yaz : public void enterTextIntoElement(String text, String key)"}
+{"logLevel":"debug","message":"Executing '{} sayfasına git.' using 'class StepImplementation.navigateTo"}
+Starting ChromeDriver 132.0.6834.159 (2d77d3fc4452661469b78f115e0aed4d71269739-refs/branch-heads/6834@{#4408}) on port 48123
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 48123.
+Şub 02, 2025 12:14:12 ÖÖ org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 132
+Şub 02, 2025 12:14:12 ÖÖ org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.3` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+{"logLevel":"debug","message":"Executing '{} elementine {} text değerini yaz' using 'class StepImplementation.enterTextIntoElement"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

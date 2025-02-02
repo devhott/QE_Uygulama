@@ -1,0 +1,62 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/dyigi/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+{"logLevel":"debug","message":"gauge-java took 1575milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1575"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.enterTextIntoElement' and 'StepImplementation.enterTextIntoElement'"}
+{"logLevel":"debug","message":"Found Enter {} into {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.enterTextIntoElement' and 'StepImplementation.enterTextIntoElement'"}
+{"logLevel":"debug","message":"Found {} elementine {} text değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clearInputArea' and 'StepImplementation.clearInputArea'"}
+{"logLevel":"debug","message":"Found Clear text of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clearInputArea' and 'StepImplementation.clearInputArea'"}
+{"logLevel":"debug","message":"Found {} elementinin text alanını temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found {} sayfasına git. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıkla. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitBySeconds' and 'StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitBySeconds' and 'StepImplementation.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementDisplayed' and 'StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found Verify {} is displayed in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementDisplayed' and 'StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found {} elementinin görünür olduğunu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkElementContainsText' and 'StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.checkElementContainsText' and 'StepImplementation.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tEnter {} into {} : public void enterTextIntoElement(String key, String text)"}
+{"logLevel":"debug","message":"\tVerify {} is displayed : public boolean isElementDisplayed(String key)"}
+{"logLevel":"debug","message":"\t{} sayfasına git. : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String text)"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\t{} elementine {} text değerini yaz : public void enterTextIntoElement(String key, String text)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String text)"}
+{"logLevel":"debug","message":"\t{} elementine tıkla. : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin text alanını temizle : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\t{} elementinin görünür olduğunu kontrol et : public boolean isElementDisplayed(String key)"}
+{"logLevel":"debug","message":"\tClick {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tClear text of element {} : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"started gRPC server on port 55306"}
+{"logLevel":"info","message":"Listening on port:55306"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

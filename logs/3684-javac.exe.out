@@ -1,0 +1,184 @@
+src\main\java\utils\DriverFactory.java:3: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src\main\java\utils\DriverFactory.java:4: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\main\java\utils\DriverFactory.java:5: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src\main\java\utils\DriverFactory.java:6: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxDriver;
+                                  ^
+src\main\java\utils\DriverFactory.java:10: error: cannot find symbol
+    private static WebDriver driver;
+                   ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src\main\java\utils\DriverFactory.java:12: error: cannot find symbol
+    public static WebDriver getDriver() {
+                  ^
+  symbol:   class WebDriver
+  location: class DriverFactory
+src\main\java\utils\ElementReader.java:3: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\main\java\utils\ElementReader.java:4: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\main\java\utils\ElementReader.java:5: error: package com.fasterxml.jackson.core.type does not exist
+import com.fasterxml.jackson.core.type.TypeReference;
+                                      ^
+src\main\java\utils\ElementReader.java:6: error: package com.fasterxml.jackson.databind does not exist
+import com.fasterxml.jackson.databind.ObjectMapper;
+                                     ^
+src\test\java\StepImplementation.java:2: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.NoSuchElementException;
+                          ^
+src\test\java\StepImplementation.java:7: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src\test\java\StepImplementation.java:8: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src\test\java\StepImplementation.java:9: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.By;
+                          ^
+src\test\java\StepImplementation.java:10: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src\test\java\StepImplementation.java:11: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebElement;
+                          ^
+src\test\java\StepImplementation.java:12: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src\test\java\StepImplementation.java:13: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src\test\java\StepImplementation.java:17: error: cannot find symbol
+    private WebDriver driver = DriverFactory.getDriver();
+            ^
+  symbol:   class WebDriver
+  location: class StepImplementation
+src\test\java\StepImplementation.java:18: error: cannot find symbol
+    private WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+            ^
+  symbol:   class WebDriverWait
+  location: class StepImplementation
+src\test\java\StepImplementation.java:19: error: cannot find symbol
+    private static final Logger logger = LogManager.getLogger(StepImplementation.class);
+                         ^
+  symbol:   class Logger
+  location: class StepImplementation
+src\test\java\StepImplementation.java:54: error: cannot find symbol
+    private WebElement findElement(String key) {
+            ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\StepImplementation.java:73: error: cannot find symbol
+    private By getBy(String type, String value) {
+            ^
+  symbol:   class By
+  location: class StepImplementation
+src\main\java\utils\DriverFactory.java:17: error: cannot find symbol
+                    WebDriverManager.chromedriver().setup();
+                    ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\main\java\utils\DriverFactory.java:18: error: cannot find symbol
+                    driver = new ChromeDriver();
+                                 ^
+  symbol:   class ChromeDriver
+  location: class DriverFactory
+src\main\java\utils\DriverFactory.java:21: error: cannot find symbol
+                    WebDriverManager.firefoxdriver().setup();
+                    ^
+  symbol:   variable WebDriverManager
+  location: class DriverFactory
+src\main\java\utils\DriverFactory.java:22: error: cannot find symbol
+                    driver = new FirefoxDriver();
+                                 ^
+  symbol:   class FirefoxDriver
+  location: class DriverFactory
+src\main\java\utils\ElementReader.java:20: error: cannot find symbol
+            ObjectMapper objectMapper = new ObjectMapper();
+            ^
+  symbol:   class ObjectMapper
+  location: class ElementReader
+src\main\java\utils\ElementReader.java:20: error: cannot find symbol
+            ObjectMapper objectMapper = new ObjectMapper();
+                                            ^
+  symbol:   class ObjectMapper
+  location: class ElementReader
+src\main\java\utils\ElementReader.java:21: error: cannot find symbol
+            elements = objectMapper.readValue(inputStream, new TypeReference<List<ElementInfo>>() {});
+                                                               ^
+  symbol:   class TypeReference
+  location: class ElementReader
+src\test\java\StepImplementation.java:18: error: cannot find symbol
+    private WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+                                     ^
+  symbol:   class WebDriverWait
+  location: class StepImplementation
+src\test\java\StepImplementation.java:19: error: cannot find symbol
+    private static final Logger logger = LogManager.getLogger(StepImplementation.class);
+                                         ^
+  symbol:   variable LogManager
+  location: class StepImplementation
+src\test\java\StepImplementation.java:31: error: cannot find symbol
+        WebElement element = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\StepImplementation.java:41: error: cannot find symbol
+        WebElement element = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\StepImplementation.java:49: error: cannot find symbol
+        WebElement element = findElement(key);
+        ^
+  symbol:   class WebElement
+  location: class StepImplementation
+src\test\java\StepImplementation.java:61: error: cannot find symbol
+            throw new NoSuchElementException("Element not found: " + key);
+                      ^
+  symbol:   class NoSuchElementException
+  location: class StepImplementation
+src\test\java\StepImplementation.java:67: error: cannot find symbol
+        By locator = getBy(type, elementInfo.getValue());
+        ^
+  symbol:   class By
+  location: class StepImplementation
+src\test\java\StepImplementation.java:68: error: cannot find symbol
+        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+                          ^
+  symbol:   variable ExpectedConditions
+  location: class StepImplementation
+src\test\java\StepImplementation.java:83: error: cannot find symbol
+                return By.id(value);
+                       ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\StepImplementation.java:85: error: cannot find symbol
+                return By.name(value);
+                       ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\StepImplementation.java:88: error: cannot find symbol
+                return By.cssSelector(value);
+                       ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\StepImplementation.java:90: error: cannot find symbol
+                return By.xpath(value);
+                       ^
+  symbol:   variable By
+  location: class StepImplementation
+src\test\java\StepImplementation.java:93: error: cannot find symbol
+                return By.xpath(value);
+                       ^
+  symbol:   variable By
+  location: class StepImplementation
+43 errors

@@ -1,0 +1,52 @@
+# Uygulama açılır.
+* "https://catchylabs-webclient.testinium.com/signIn" sayfasına git.
+
+# Login sayfasında <text> kullanıcı adı ve <pass> şifresiyle oturum açılır.
+* Kullanıcı adı <text> değeriyle doldurulur.
+* Şifre <pass> değeriyle girilir.
+* "loginButton" elementine tıkla.
+
+# Kullanıcı adı <text> değeriyle doldurulur.
+* "loginPageUserName" elementine <text> text değerini yaz
+
+# Şifre <text> değeriyle girilir.
+* "loginPagePassword" elementine <text> text değerini yaz
+
+# Uygulama hakkında bilgiler görülür ve open money transfer tıklanır.
+* "infoPage" elementinin görünür olduğunu kontrol et
+* "openMoneyButton" elementine tıkla.
+
+# Edit Account butonuna tıklanır ve pop geldiği görülür.
+* "editAccountButton" elementine tıkla.
+* "1" saniye bekle
+* "updateAccountNameInput" elementinin text alanını temizle
+* "updateAccountNameInput" elementine "devrimhot" text değerini yaz
+
+
+# Güncelle butonuna tıklanır ve kullanıcı adının değişti görülür.
+* "updateButton" elementine tıkla.
+* "accountInfoUserName" elementi "devrimhot" değerini içeriyor mu kontrol et
+
+# Transfer money butonuna tıklanır.
+* Mevcut bakiye alınır.
+* "transferMoney" elementine tıkla.
+
+# Add money butonuna tıklanır.
+* Mevcut bakiye alınır.
+* "addMoney" elementine tıkla.
+
+# Gönderilecek miktar <text> yazılır ve gönder butonuna tıklanır.
+* "transferAmount" elementine <text> text değerini yaz
+* <text> TL transfer edilir.
+* "transferSendButton" elementine tıkla.
+* "4" saniye bekle
+
+# Kart bilgileri doldurulur, <text> Tl yazılır ve add butonuna basılır.
+* "cardNumberInput" elementine "1234123412341234" text değerini yaz
+* "cardHolderInput" elementine "devrimhot" text değerini yaz
+* "expiryDateInput" elementine "1026" text değerini yaz
+* "cvvInput" elementine "110" text değerini yaz
+* "amountInput" elementine "10000" text değerini yaz
+* Kullanıcı <text> TL gönderir.
+* "addButton" elementine tıkla.
+* "4" saniye bekle

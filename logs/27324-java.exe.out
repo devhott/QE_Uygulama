@@ -1,0 +1,41 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/dyigi/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+{"logLevel":"debug","message":"gauge-java took 1365milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1365"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.enterTextIntoElement' and 'StepImplementation.enterTextIntoElement'"}
+{"logLevel":"debug","message":"Found Enter {} into {} in current project scope."}
+{"logLevel":"debug","message":"Loading {} elementine {} text deÄŸerini yazvia reflected sources."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.navigateTo' and 'StepImplementation.navigateTo'"}
+{"logLevel":"debug","message":"Found Navigate to {} in current project scope."}
+{"logLevel":"debug","message":"Loading {} sayfasÄ±na git.via reflected sources."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickElement' and 'StepImplementation.clickElement'"}
+{"logLevel":"debug","message":"Found Click {} in current project scope."}
+{"logLevel":"debug","message":"Loading {} elementine tÄ±kla.via reflected sources."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.isElementDisplayed' and 'StepImplementation.isElementDisplayed'"}
+{"logLevel":"debug","message":"Found Verify {} is displayed in current project scope."}
+{"logLevel":"debug","message":"Loading {} elementinin gÃ¶rÃ¼nÃ¼r olduÄŸunu kontrol etvia reflected sources."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tEnter {} into {} : public void enterTextIntoElement(String text, String key)"}
+{"logLevel":"debug","message":"\tVerify {} is displayed : public boolean isElementDisplayed(String key)"}
+{"logLevel":"debug","message":"\t{} sayfasına git. : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\t{} elementinin gÃ¶rÃ¼nÃ¼r olduÄŸunu kontrol et : null"}
+{"logLevel":"debug","message":"\t{} sayfasÄ±na git. : null"}
+{"logLevel":"debug","message":"\tNavigate to {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\t{} elementine {} text değerini yaz : public void enterTextIntoElement(String text, String key)"}
+{"logLevel":"debug","message":"\t{} elementine tıkla. : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine tÄ±kla. : null"}
+{"logLevel":"debug","message":"\t{} elementinin görünür olduğunu kontrol et : public boolean isElementDisplayed(String key)"}
+{"logLevel":"debug","message":"\tClick {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementine {} text deÄŸerini yaz : null"}
+{"logLevel":"debug","message":"started gRPC server on port 62807"}
+{"logLevel":"info","message":"Listening on port:62807"}
+{"logLevel":"fatal","message":"No step definition found. Try compiling the source before execution."}

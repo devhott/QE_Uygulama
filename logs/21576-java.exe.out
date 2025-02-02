@@ -1,0 +1,28 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 2031milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 2031"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Loading Verify \"{}\" is displayed on \"{}via reflected sources."}
+{"logLevel":"debug","message":"Loading Navigate to \"{}via reflected sources."}
+{"logLevel":"debug","message":"Loading Click \"{}\" on \"{}via reflected sources."}
+{"logLevel":"debug","message":"Loading Enter \"{}\" into \"{}\" on \"{}via reflected sources."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tEnter \\\"{}\\\" into \\\"{}\\\" on \\\"{}\\ : public void enterText(String text, String page, String elementKey)"}
+{"logLevel":"debug","message":"\tNavigate to \\\"{}\\ : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\tNavigate to \"{} : null"}
+{"logLevel":"debug","message":"\tVerify \\\"{}\\\" is displayed on \\\"{}\\ : public boolean isElementDisplayed(String page, String elementKey)"}
+{"logLevel":"debug","message":"\tVerify \"{}\" is displayed on \"{} : null"}
+{"logLevel":"debug","message":"\tClick \"{}\" on \"{} : null"}
+{"logLevel":"debug","message":"\tEnter \"{}\" into \"{}\" on \"{} : null"}
+{"logLevel":"debug","message":"\tClick \\\"{}\\\" on \\\"{}\\ : public void clickElement(String page, String elementKey)"}
+{"logLevel":"debug","message":"started gRPC server on port 51334"}
+{"logLevel":"info","message":"Listening on port:51334"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
